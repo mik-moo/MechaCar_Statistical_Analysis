@@ -10,7 +10,7 @@ In this analysis, a new car prototype is evaluated for issues during production 
 
 Using the MechaCar_mpg.csv, linear regression was performed to determine factors that may affect mpg.
 
-<img src="images/linear_regression.png" width = 500 height = 500>
+<img src="images/linear_regression.png">
 
 - The variables providing a non-random amount of variance to the mpg values in the dataset are length and ground clearance. The vehicle's weight is not as significant, but still may have a correlation to mpg.  The variables used for this analysis may be expanded to include other factors and even normalized to look more closely at the potential correlations.
 
@@ -22,9 +22,9 @@ Using the MechaCar_mpg.csv, linear regression was performed to determine factors
 
 An analysis of suspension coils was performed to compare manufacturing lots.
 
-<img src="images/total_summary.png" width = 500 height = 500> 
+<img src="images/total_summary.png" > 
 
-<img src="images/lot_summary.png" width = 500 height = 500>
+<img src="images/lot_summary.png">
 
 - The design specifications for the MechaCar suspension coils require a variance <= 100lbs per square inch.  All manufacturing lots in total meet this standard metric at ~62, but may be skewed by Lot 3 which is outside the accepted variance window at 170 +/- 13.  Lots 1 and 2 were within specifications.
 
@@ -34,11 +34,11 @@ T-tests were performed to determine if a statistically significant difference in
 
 - For the overall data, assuming our significance level was 0.05, our p-value is above our significance level at 0.06. Therefore, we do not have sufficient evidence to reject the null hypothesis, meaning that the two means are statistically similar.
 
-<img src="images/one_sample_t.test.png" width = 500 height = 500>
+<img src="images/one_sample_t.test.png">
 
 - For the individual lot numbers, Lot 3 is 0.04 which is below the significance level showing that it is statistically different from the other lots. The other 2 lots' means are statistically similar.
 
-<img src="images/lots_t.test.png" width = 500 height = 500>
+<img src="images/lots_t.test.png" >
 
 ## Study Design: MechaCar vs Competition
 
